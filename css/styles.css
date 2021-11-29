@@ -99,16 +99,22 @@ header .contact-list {
   color: var(--primary-white-color);
 }
 .hero .button {
-  padding: 10px 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  cursor: pointer;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
-  text-align: center;
-  color: var(--primary-white-color);
-  background: var(--accent-color);
-  cursor: pointer;
 }
+
 .hero .button:hover,
 .hero .button:focus {
   background-color: #188ce8;
@@ -195,6 +201,13 @@ header .contact-list {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6px;
+text-align: center;
+letter-spacing: 0.03em
   background-color: #f5f4fa;
 }
 .portfolio-filter-btn:hover,
