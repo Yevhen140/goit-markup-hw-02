@@ -22,6 +22,13 @@ body {
 }
 
 .header .logo-color-suffix {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+
   color: var(--title-text-color);
 }
 
@@ -34,14 +41,22 @@ ul {
 }
 .site-nav a {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus,
-.site-nav a:active {
+.site-nav .active {
   color: var(--accent-color);
 }
 .contact-list a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contact-list a:hover,
 .contact-list a:focus {
@@ -51,9 +66,14 @@ ul {
   background: var(--title-text-color);
 }
 .hero .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 .hero .button {
@@ -111,8 +131,14 @@ ul {
 }
 
 .team-list-item-title {
-  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 /*footer*/
@@ -124,11 +150,16 @@ ul {
   font-style: normal;
 }
 .footer .contact-list {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-text-color);
 }
 
 /* portfolio */
 .portfolio-filter-btn {
+  height: 38px;
+  width: 103px;
+  left: 865px;
+  top: 174px;
+  border-radius: 4px;
   cursor: pointer;
   background-color: #f5f4fa;
   font-family: inherit;
@@ -136,6 +167,14 @@ ul {
 
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 .portfolio {
