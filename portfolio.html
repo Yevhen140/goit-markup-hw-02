@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,25 +20,27 @@
   </head>
   <body>
     <header class="header">
-      <a href="/index.html" class="logo">
-        <span class="logo-color">Web</span
-        ><span class="logo-color-suffix">Studio</span>
-      </a>
-      <nav>
-        <ul class="site-nav">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html" class="active">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+      <div class="container">
+        <a href="/index.html" class="logo">
+          <span class="logo-color">Web</span
+          ><span class="logo-color-suffix">Studio</span>
+        </a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="./index.html">Студия</a></li>
+            <li><a href="./portfolio.html" class="active">Портфолио</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li><a href="info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="contact-list">
-        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="filter-btn">
           <li>
             <button type="button" class="portfolio-filter-btn">Все</button>
           </li>
@@ -57,8 +66,10 @@
         <ul class="portfolio">
           <li class="element">
             <img src="./images/технокряк.jpg" alt="технокряк" width="370" />
-            <h2 class="portfolio-title">Технокряк</h2>
-            <p class="portfolio-project">Веб-сайт</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Технокряк</h2>
+              <p class="portfolio-project">Веб-сайт</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -66,8 +77,10 @@
               alt="Постер-New-Orlean-vs-Golden-Star"
               width="370"
             />
-            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-            <p class="portfolio-project">Дизайн</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-project">Дизайн</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -75,8 +88,10 @@
               alt="Ресторан-Seafood"
               width="370"
             />
-            <h2 class="portfolio-title">Ресторан Seafood</h2>
-            <p class="portfolio-project">Приложение</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Ресторан Seafood</h2>
+              <p class="portfolio-project">Приложение</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -84,8 +99,10 @@
               alt="Проект-Prime"
               width="370"
             />
-            <h2 class="portfolio-title">Проект-Prime</h2>
-            <p class="portfolio-project">Маркетинг</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Проект-Prime</h2>
+              <p class="portfolio-project">Маркетинг</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -93,8 +110,10 @@
               alt="Проект-Boxes"
               width="370"
             />
-            <h2 class="portfolio-title">Проект Boxes</h2>
-            <p class="portfolio-project">Приложение</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Проект Boxes</h2>
+              <p class="portfolio-project">Приложение</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -102,8 +121,10 @@
               alt="Inspiration-has-no-Borders"
               width="370"
             />
-            <h2 class="portfolio-title">Inspiration has no Borders</h2>
-            <p class="portfolio-project">Веб-сайт</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="portfolio-project">Веб-сайт</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -111,13 +132,17 @@
               alt="Издание-Limited-Edition"
               width="370"
             />
-            <h2 class="portfolio-title">Издание Limited Edition</h2>
-            <p class="portfolio-project">Дизайн</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Издание Limited Edition</h2>
+              <p class="portfolio-project">Дизайн</p>
+            </div>
           </li>
           <li class="element">
             <img src="./images/Проект-LAB.jpg" alt="Проект-LAB" width="370" />
-            <h2 class="portfolio-title">Проект LAB</h2>
-            <p class="portfolio-project">Маркетинг</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Проект LAB</h2>
+              <p class="portfolio-project">Маркетинг</p>
+            </div>
           </li>
           <li class="element">
             <img
@@ -125,8 +150,10 @@
               alt="Growing-Business"
               width="370"
             />
-            <h2 class="portfolio-title">Growing Business</h2>
-            <p class="portfolio-project">Приложение</p>
+            <div class="portfolio-card">
+              <h2 class="portfolio-title">Growing Business</h2>
+              <p class="portfolio-project">Приложение</p>
+            </div>
           </li>
         </ul>
       </section>
