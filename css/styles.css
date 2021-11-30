@@ -177,9 +177,21 @@ header .contact-list {
   color: var(--primary-white-color);
 }
 .footer address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
   font-style: normal;
 }
 .contact-list-footer a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -202,13 +214,12 @@ header .contact-list {
   cursor: pointer;
   text-align: center;
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6px;
-text-align: center;
-letter-spacing: 0.03em
-  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6px;
+  text-align: center;
+  letter-spacing: 0.03em background-color #f5f4fa;
 }
 .portfolio-filter-btn:hover,
 .portfolio-filter-btn:focus {
